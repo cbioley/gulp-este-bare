@@ -1,0 +1,41 @@
+{
+  "name": "gulp-este-blank",
+  "version": "0.1.0",
+  "description": "Gulp task to set an Este.js project to a blank state",
+  "license": "MIT",
+  "repository": "cbioley/gulp-este-blank",
+  "author": {
+    "name": "Cyril Bioley",
+    "email": "cyril.bioley@gmail.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo"
+  },
+  "files": [
+    "tasks/**/*.js",
+    "index.js"
+  ],
+  "keywords": [
+    "este",
+    "este.js",
+    "blank"
+  ],
+  "dependencies": {
+    "del": "^2.2.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.5.1",
+    "babel-preset-es2015": "^6.5.0",
+    "eslint": "^1.10.3",
+    "eslint-config-xo-space": "^0.8.0",
+    "xo": "^0.12.1"
+  },
+  "xo": {
+    "extends": [
+      "xo-space"
+    ]
+  }
+}
