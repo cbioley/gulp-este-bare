@@ -18,7 +18,7 @@ In `gulpfile.babel.js`:
 
 ```js
 
-import bare from 'gulp-este-bare';
+import {bare} from 'gulp-este-bare';
 
 ```
 
