@@ -23,12 +23,11 @@
     "bare"
   ],
   "dependencies": {
+    "babel-preset-es2015": "^6.5.0",
     "del": "^2.2.0",
     "fs-extra": "^0.26.5"
   },
   "devDependencies": {
-    "babel-core": "^6.5.1",
-    "babel-preset-es2015": "^6.5.0",
     "eslint": "^1.10.3",
     "eslint-config-xo-space": "^0.8.0",
     "xo": "^0.12.1"
