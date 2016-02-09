@@ -40,7 +40,7 @@ function removeFiles() {
 }
 
 function replaceFiles() {
-  const source = path.join(__dirname, './support/src');
+  const source = path.join(__dirname, '../support/src');
   const target = path.join(process.cwd(), 'src');
   fs.copy(source, target, (err) => {
     if (err) {
