@@ -1,9 +1,9 @@
 {
-  "name": "gulp-este-blank",
+  "name": "gulp-este-bare",
   "version": "0.1.0",
-  "description": "Gulp task to set an Este.js project to a blank state",
+  "description": "Gulp task to set an Este.js project to a bare state",
   "license": "MIT",
-  "repository": "cbioley/gulp-este-blank",
+  "repository": "cbioley/gulp-este-bare",
   "author": {
     "name": "Cyril Bioley",
     "email": "cyril.bioley@gmail.com"
@@ -15,16 +15,16 @@
     "test": "xo"
   },
   "files": [
-    "tasks/**/*.js",
     "index.js"
   ],
   "keywords": [
     "este",
     "este.js",
-    "blank"
+    "bare"
   ],
   "dependencies": {
-    "del": "^2.2.0"
+    "del": "^2.2.0",
+    "fs-extra": "^0.26.5"
   },
   "devDependencies": {
     "babel-core": "^6.5.1",
