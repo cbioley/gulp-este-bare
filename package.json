@@ -1,6 +1,6 @@
 {
   "name": "gulp-este-bare",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Gulp task to set an Este.js project to a bare state",
   "license": "MIT",
   "repository": "cbioley/gulp-este-bare",
